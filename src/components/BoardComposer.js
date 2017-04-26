@@ -7,8 +7,6 @@ export const BoardComposer = (Board) => observer(class extends Component {
 
   componentDidMount() {
     document.addEventListener("keydown", this.handleArrows, false);
-
-    console.log('mounted');
   }
 
   componentWillUnmount() {
